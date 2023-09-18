@@ -1,0 +1,156 @@
+::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  body {
+    background-image: url('https://thumbs.dreamstime.com/z/transaction-took-place-male-hands-isolated-white-background-48645925.jpg');
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(86, 46%, 44%);
+  }
+  
+  .custom_card {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(233, 179, 179, 0.1); /* Use rgba with an alpha value */
+
+  }
+  
+  .card {
+    width: 25%;
+    height: 50%;
+    border-radius: 7px;
+    background-color: rgba(233, 179, 179, 0.1); /* Use rgba with an alpha value */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+  }
+  
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .icon {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(233, 179, 179, 0.1); /* Use rgba with an alpha value */
+
+  }
+  
+  .fas {
+    font-size: 5rem;
+    transition: all 0.4s;
+  }
+  
+  /* Colors */
+  .bg-primary {
+    background-color: #4e7bff !important;
+  }
+  
+  .bg-success {
+    background-color: #49cc90 !important;
+  }
+  
+  .bg-danger {
+    background-color: #fc4c4c !important;
+  }
+  
+  .bg-warning {
+    background-color: #ffc947 !important;
+  }
+  
+  .bg-info {
+    background-color: #46c9d7 !important;
+  }
+  
+  .bg-dark {
+    background-color: #343a40 !important;
+    color: #ffffff !important;
+  }
+  
+  .text-light {
+    color: #171616 !important;
+  }
+  
+  .text-dark {
+    color: #710f0f !important;
+  }
+  th{
+    color: #000;
+  }
+  .btn-primary {
+    background-color: #4e7bff !important;
+    border-color: #4e7bff !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3a5fa3 !important;
+    border-color: #3a5fa3 !important;
+  }
+  
+  .btn-success {
+    background-color: #49cc90 !important;
+    border-color: #49cc90 !important;
+  }
+  
+  .btn-success:hover {
+    background-color: #3da57d !important;
+    border-color: #3da57d !important;
+  }
+  
+  .btn-danger {
+    background-color: #fc4c4c !important;
+    border-color: #fc4c4c !important;
+  }
+  
+  .btn-danger:hover {
+    background-color: #e83f3f !important;
+    border-color: #e83f3f !important;
+  }
+  
+  .btn-warning {
+    background-color: #ffc947 !important;
+    border-color: #ffc947 !important;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e0b73e !important;
+    border-color: #e0b73e !important;
+  }
+  
+  .btn-info {
+    background-color: #46c9d7 !important;
+    border-color: #46c9d7 !important;
+  }
+  
+  .btn-info:hover {
+    background-color: #3b0e6e !important;
+    border-color: #36a6b4 !important;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .custom_card {
+      flex-direction: column;
+    }
+  
+    .card {
+      border: 1px solid #000;
+      width: 100%;
+      height: 80%;
+      margin: 8px 0px;
+    }
+  
+    .fas {
+      font-size: 3rem;
+    }
+  
+    .cus-foot {
+      display: none !important;
+    }
+  }
